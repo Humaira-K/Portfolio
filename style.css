@@ -8,15 +8,8 @@
 }
 
 body {
+  font-family: var(--primary-text);
   margin: 100px 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-h1,
-h2
-h3 {
-  margin: 0;
 }
 
 h1 {
@@ -25,14 +18,7 @@ h1 {
   font-size: 96px;
 }
 
-/* h2 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  font-size: 36px;
-} */
-
 h3 {
-  font-family: var(--primary-text);
   font-weight: normal;
   font-size: 24px;
   line-height: 2;
@@ -40,7 +26,6 @@ h3 {
 }
 
 p {
-  font-family: var(--primary-text);
   font-weight: normal;
   padding: 20px;
   font-size: 18px;
@@ -54,7 +39,6 @@ p {
 }
 
 .hero h2 {
-  font-family: var(--primary-text);
   font-weight: bold;
   font-size: 36px;
 }
