@@ -1,7 +1,10 @@
 :root {
+  --branding-color: #F9F7FE; 
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-text: 'Poppins', sans-serif;
+  --secondary-text: 'Playfair Display', serif; 
 }
 
 body {
@@ -17,28 +20,43 @@ h3 {
 }
 
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--secondary-text);
   font-weight: bold;
   font-size: 96px;
 }
 
-h2 {
+/* h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 48px;
-}
+  font-weight: bold;
+  font-size: 36px;
+} */
 
 h3 {
-  
+  font-family: var(--primary-text);
+  font-weight: normal;
   font-size: 24px;
+  line-height: 2;
   opacity: 0.7;
 }
 
 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--primary-text);
   font-weight: normal;
   padding: 20px;
   font-size: 18px;
   line-height: 1.5; 
+}
+
+.hero {
+  background: var(--branding-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero h2 {
+  font-family: var(--primary-text);
+  font-weight: bold;
+  font-size: 36px;
 }
 
 .navigation-links {
