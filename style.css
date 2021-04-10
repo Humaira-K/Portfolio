@@ -49,6 +49,8 @@ p {
 .contact-link:hover {
   color: white;
 }
+
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
