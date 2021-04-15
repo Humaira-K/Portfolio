@@ -35,6 +35,39 @@ p {
   line-height: 1.5; 
 }
 
+.logo {
+  max-height: 130px;
+  margin: -20px 0px 0px -70px;
+}
+
+nav {
+  padding: 20px 0;
+  margin-bottom: -60px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  font-size: 18px;
+  display: inline;
+  list-style: none;
+  line-height: 80px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover, nav li.active a {
+  color: var(--primary-color);
+}
+
 .hero {
   background: var(--branding-color);
   text-align: center;
@@ -159,7 +192,15 @@ p {
   }
   h2 {
     font-size: 44px;
-  
+  }
+
+  .logo {
+   max-height: 90px;
+   margin: 0px 0px 15px -10px;
+  }
+
+  nav a {
+    font-size: 18px;
   }
   .hero {
     padding: 80px 20px;
