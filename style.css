@@ -30,7 +30,8 @@ h3 {
   line-height: 2;
 }
 h4 {
-  font-size: 48px;
+  font-family: var(--secondary-text);
+  font-size: 50px;
 }
 
 p {
