@@ -55,7 +55,7 @@ p {
 .hero {
   background: var(--branding-color);
   text-align: center;
-  padding: 120px 20px;
+  padding: 100px 20px;
 }
 
 .hero h1 {
@@ -69,7 +69,7 @@ p {
 }
 
 .content-container {
-  padding: 100px 20px;
+  padding: 60px 20px;
 }
 
 .content {
@@ -116,7 +116,7 @@ p {
 }
 
 .project-description {
-  padding: 70px 40px;
+  padding: 60px 40px;
 }
 
 .contact-link {
