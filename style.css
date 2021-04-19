@@ -10,7 +10,6 @@
 
 body {
   background-color: #FFFFFE !important;
-  font-family: var(--primary-text);
   margin: 100px 0;
 }
 
@@ -21,6 +20,7 @@ h1 {
   font-size: 60px;
 }
 h2 {
+  font-family: var(--secondary-text);
   color: #232946;
 }
 
@@ -145,7 +145,8 @@ footer .contact-box {
 footer .email-link {
    text-decoration: none;
    color: var(--text-color);
-   font-size: 24px;
+   font-family: var(--primary-text);
+   font-size: 22px;
    text-align: center;
    padding: 35px;
 }
@@ -169,6 +170,14 @@ footer .social-links a:hover {
   background: var(--primary-color);
 }
 
+footer .github-link {
+   text-decoration: none;
+   color: var(--text-color);
+  font-family: var(--primary-text);
+}
+footer .github-link:hover {
+  color: var(--primary-color);
+}
 
 .apps-links {
  border-radius: 4px;
@@ -255,6 +264,9 @@ footer .social-links a:hover {
     text-align: center;
     padding: 0;
   }
+  .content-container h1 {
+   font-size: 45px;
+  }
   .project-description {
     padding: 0;
   }
@@ -267,11 +279,21 @@ footer .social-links a:hover {
   .container h2, p {
     text-align: center;
   }
-
+  .social-media-links {
+    font-size: 20px;
+  }
   footer .contact-box {
   padding: 30px;
   }
   footer .contact-box p {
   font-size: 15px;
-}
+  }
+  footer .email-link {
+    font-size: 14px;
+    margin-bottom: -20px;
+  }
+  footer p {
+    font-size: 14px;
+    margin-top: -10px;
+  }
 }
